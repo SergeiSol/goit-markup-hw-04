@@ -115,8 +115,9 @@ address {
 }
 .hero-title {
     padding-top: 200px;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    padding-bottom: 45px;
+    margin: 0px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -141,6 +142,9 @@ address {
     min-width: 130px;
     text-align: center;
     cursor: pointer;
+}
+.btn{
+    padding-bottom: 210px;
 }
 /*------------------work---------------------*/
 .work{
@@ -279,6 +283,7 @@ address {
 .portfolio-buttons-list {
     justify-content: center;
     padding: 0;
+    margin: 0px;
     padding-bottom: 30px;    
 }
 .portfolio-button {
@@ -308,10 +313,12 @@ address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0;
+    padding: 0px;
     margin: 0px; 
 }
 .flex-frame {
+    padding: 0px;
+    margin: 0px;
     border: 1px solid #EEEEEE;
 }
 
@@ -330,6 +337,7 @@ address {
 }
 .flex-item{
     display: inline-block;
+    flex-wrap: wrap;
     width: 370px;
     height: 404px;
     margin-bottom: 30px;
