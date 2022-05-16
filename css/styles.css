@@ -38,24 +38,25 @@ body{
 .conteiner-main-nav {
     display: flex;
     width: 1200px;
-    height: 80px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
     margin: 0 auto;
-    align-items: center;
     justify-content: space-between;
+    
 }
 /*-----------------header---------------- */
 .header-nav{
     display: flex;
-    margin-right: 50px;
-    height: 80px;
+    
 }
 .header-list {
     display: flex;
-    margin-left: 90px;
-    margin-top: 34px;
-    margin-bottom: 34px;
+    margin: 0px;
+    padding-left: 94px;
+    align-items: center;
  }
 
 .icon-envelope::before {
@@ -89,16 +90,11 @@ body{
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: contain;
-    
-
 }
 
 .icon-smartphone::before {
     background-image: url(../images/icon.svg/smartphone.svg);
 }
-
-
-
 
 .header-item {
     margin-right: 30px;   
@@ -114,8 +110,6 @@ address {
 }
 /*-------------------logo-------------------*/
 .logo{
-    margin-top: 30px;
-    margin-bottom: 30px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -211,18 +205,10 @@ address {
     padding-bottom: 200px;
 }
 /*------------------work---------------------*/
-.work{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .work-list .work-item:last-child {
     margin-right: 0px;
 }
 /*----------------icon------------------------*/
-
-
-
-
 .work-item::before {
     content:"";
     display: block;
@@ -312,8 +298,6 @@ address {
 }
 /*--------------------team--------------------*/
 .team{
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: #F5F4FA;
 }
 .team-list{
@@ -451,4 +435,9 @@ address {
 .address-list{
     padding: 0px;
 }
-
+.address-item{
+    padding-bottom: 9px;
+}
+.address-list .address-item:last-child {
+    padding-bottom: 0px;
+}
