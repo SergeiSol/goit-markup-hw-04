@@ -13,6 +13,7 @@ body{
     line-height: 1.71;
     background-color: var(--primary-white-color)
 }
+
 .list{
     list-style: none;
 }
@@ -44,6 +45,7 @@ body{
 .header-nav{
     display: flex;
     margin-right: 50px;
+    height: 80px;
 }
 .header-list {
     display: flex;
@@ -78,9 +80,14 @@ address {
 .portfolio-buttons-list {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .portfolio-button {
     margin-right: 8px;
+    padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 22px;
+        padding-left: 22px;
 
 }
 .portfolio-buttons-list:last-child{
@@ -112,19 +119,21 @@ address {
     text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
-}
-.hero-title {
-    padding-top: 200px;
-    padding-bottom: 45px;
     margin: 0px;
+    
+    
+}
+
+.hero-title {
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    width: 696px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-white-color)
-    
+    color: var(--primary-white-color);
+   
 }
 /*-------------------btn---------------------*/
 .button{
@@ -270,6 +279,7 @@ address {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .portfolio-button.current {
    background-color: var(--accent-color);
    color: var(--primary-white-color)
@@ -310,6 +320,7 @@ address {
 /*------------------flex--------------------*/
 
 .flex-list{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -317,6 +328,7 @@ address {
     margin: 0px; 
 }
 .flex-frame {
+    
     padding: 0px;
     margin: 0px;
     border: 1px solid #EEEEEE;
@@ -342,6 +354,7 @@ address {
     height: 404px;
     margin-bottom: 30px;
 }
+
 
 .flex-item:nth-child(3n) {
     margin-right: 0px;
