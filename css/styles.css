@@ -306,9 +306,11 @@ address {
     padding: 0px;
     margin: 0px;
     text-align: center;
+    
 }
 .team-item{
     margin-right: 30px;
+    background-color: #fff;
 }
 .team-list .team-item:last-child{
     margin-right: 0px;
