@@ -18,13 +18,49 @@ body{
     padding-bottom: 94px;
 }
 
-.list{
-    list-style: none;
-}
-
 .link{
     text-decoration: none;
 }
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-link {
+    list-style: none;
+    padding: 0 32px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.item-social:not(:last-child) {
+    margin-right: 10px;
+}
+
+.link-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    color: #AFB1B8;
+}
+
+.link-social:hover {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    color: var(--primary-white-color);
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+    fill: currentColor;
+}
+
+
 .accent{
     color: var(--accent-color);
 }
@@ -299,15 +335,6 @@ address {
         padding-bottom: 50px;
 }
 /*--------------------team--------------------*/
-.svg-icon{
-    
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-position: center;
-        background-repeat: no-repeat;
-    background-color: tomato;
-}
 .team{
     background-color: #F5F4FA;
 }
