@@ -58,10 +58,10 @@ body{
     padding-left: 94px;
     align-items: center;
  }
-
+ 
 .icon-envelope::before {
     display: inline-block;
-    content:"";
+    content: "";
     width: 16px;
     height: 12px;
     top: 34px;
@@ -71,13 +71,14 @@ body{
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: contain;
-    
+
 
 }
 
 .icon-envelope::before {
     background-image: url(../images/icon.svg/envelope.svg);
 }
+
 .icon-smartphone::before {
     display: inline-block;
     content: "";
@@ -95,6 +96,7 @@ body{
 .icon-smartphone::before {
     background-image: url(../images/icon.svg/smartphone.svg);
 }
+
 
 .header-item {
     margin-right: 30px;   
@@ -297,6 +299,15 @@ address {
         padding-bottom: 50px;
 }
 /*--------------------team--------------------*/
+.svg-icon{
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-position: center;
+        background-repeat: no-repeat;
+    background-color: tomato;
+}
 .team{
     background-color: #F5F4FA;
 }
