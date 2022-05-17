@@ -366,6 +366,52 @@ address {
     line-height: 1.18;
     color: var(--primary-text-color);
 }
+.section-title {
+    padding-top: 94px;
+    
+}
+
+.section-item {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 26px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.svg{
+    object-fit: scale-down;
+}
+ .section-item:last-child {
+     margin-right: 0px;
+ }
+ .section-list{
+     margin: 0px;
+     padding: 0px;
+     padding-bottom: 94px;
+ }
+.section-icon{
+    
+    height: 60px;
+    
+    display: flex;
+    fill: #AFB1B8;
+    justify-content: center;
+    
+}
+
+.section-item, .section-icon:hover{
+    
+    
+}
+
+
+
+
 /*--------------------footer------------------*/
 .footer{
     background-color: #2F303A;
